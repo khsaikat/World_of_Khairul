@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'blog_posts.apps.BlogPostsConfig',
+    'my_printers.apps.MyPrintersConfig',
 ]
 
 MIDDLEWARE = [
@@ -81,9 +82,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'world_of_khairul_db',
         'USER': 'khsaikat',
-        'PASSWORD': '1!DipuNo.21!',
-        'HOST': 'pgresql-inst-1.cgdchjrx2kdq.us-east-1.rds.amazonaws.com',
-        'PORT': '5432'
+        'PASSWORD': '1!DipuNo.2',
+        # 'HOST': 'pgresql-inst-1.cgdchjrx2kdq.us-east-1.rds.amazonaws.com',
+        # 'PORT': '5432'
     }
 }
 
